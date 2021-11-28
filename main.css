@@ -1,0 +1,140 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	
+}
+body{
+	background-image:url("pictures/cube3.jpg");
+	background-position:top-left;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size: 100% 100%;
+}
+
+#header{
+	
+	
+	background-image: url("pictures/cube2.jpg");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size: 70%;
+	padding-top: 20px;
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+	font-size: 70px;
+	
+	
+}
+/************************************************************************************************************************************
+************************************************************************************************************************************
+THIS IS THE BEGINNING OF THE TOP NAVIGATION BAR 
+*************************************************************************************************************************************
+************************************************************************************************************************************/
+#topnav{
+	
+	margin-left:15%;
+	width:70%;
+	text-align:center;
+	background: rgba(243,132,48,1);
+	border-radius: 0 0 15px 15px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	
+	
+}
+#topnav ul{
+	
+}
+#topnav ul li{ 
+	position:relative;
+	padding:2px;
+	font-family: 'Indie Flower', cursive;
+	font-size: 140%;
+	min-width: 80px;
+	
+	display:inline-block;
+	text-align: center;
+}
+#topnav ul li ul{
+
+}
+#topnav ul li ul li{
+	display:none;
+	padding-left: 7px;
+	padding-top: 10px;
+		
+
+}
+#topnav .subend{
+	border-radius: 0 0 15px 15px;
+}
+#topnav ul li a{
+	margin-top: 10px;
+	text-decoration:none;
+	color: #000000;
+}
+#topnav ul li:hover li{
+	display:block;
+}
+#topnav ul li a:hover{
+
+	color: #ffffff;
+}
+#topnav ul li ul li{
+	background: rgba(243,132,48,1);
+	margin-left: -10px;
+	text-align: left;
+	min-width: 160px;
+	border-bottom:1.5px solid black;
+}
+#topnav ul li ul {
+	
+	position:absolute;
+	padding:2px;
+	font-family: 'Indie Flower', cursive;
+	font-size: 70%;
+	display:block;
+	
+}
+/************************************************************************************************************************************
+************************************************************************************************************************************
+THIS IS THE END OF THE TOP NAVIGATION BAR 
+*************************************************************************************************************************************
+************************************************************************************************************************************/
+
+/************************************************************************************************************************************
+************************************************************************************************************************************
+THIS IS THE BEGINNING OF THE MAIN CONTENT PART 
+*************************************************************************************************************************************
+************************************************************************************************************************************/
+#content{
+	padding: 1%;
+	border-radius: 25px 25px 0px 0px ;
+	background: rgba(243,244,235,0.9);
+	
+	width: 68%;
+	margin-left:auto;
+	margin-right: auto;
+	height:100%;
+	box-shadow: 7px 7px 7px 7px #888888;
+	
+
+}
+
+			
+/************************************************************************************************************************************
+************************************************************************************************************************************
+THIS IS THE BEGINNING OF THE MAIN CONTENT PART 
+*************************************************************************************************************************************
+************************************************************************************************************************************/
+
+#footer{
+	background: rgba(243,132,48,1);
+	min-height:40px;
+	width: 70%;
+	margin-left:auto;
+	margin-right: auto;
+	
+	border-radius: 0px 0px 20px 20px;
+	box-shadow: 7px 7px 7px 7px #888888;
+}
